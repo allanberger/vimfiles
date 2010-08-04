@@ -69,7 +69,7 @@ set hlsearch "hilight searches by default
 " http://vimdoc.sourceforge.net/htmldoc/filetype.html
 filetype on " enables filetype detection
 filetype plugin on " enables filetype specific plugins (ftplugins)
-filetype indent on " enable loading the indent file for specific file types
+filetype plugin indent on " enable loading the indent file for specific file types
 
 " Tab-Completion Settings
 set wildmode=list:longest "make cmdline tab completion similar to bash
