@@ -13,3 +13,6 @@
 [submodule "vim/bundle/pyflakes-vim/ftplugin/python"]
 	path = vim/bundle/pyflakes-vim
 	url = http://github.com/kevinw/pyflakes-vim.git
+[submodule "vim/bundle/vim-markdown"]
+	path = vim/bundle/vim-markdown
+	url = http://github.com/tpope/vim-markdown.git
