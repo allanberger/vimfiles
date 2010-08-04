@@ -66,11 +66,6 @@ set smartcase "case-sensitive if there are upper-case letters in the search patt
 set incsearch "find the next match as we type the search
 set hlsearch "hilight searches by default
 
-" http://vimdoc.sourceforge.net/htmldoc/filetype.html
-filetype on " enables filetype detection
-filetype plugin on " enables filetype specific plugins (ftplugins)
-filetype plugin indent on " enable loading the indent file for specific file types
-
 " Tab-Completion Settings
 set wildmode=list:longest "make cmdline tab completion similar to bash
 set wildmenu "enable ctrl-n and ctrl-p to scroll thru matches
@@ -83,3 +78,8 @@ filetype off
 "load pathogen managed plugins
 "this is necessary to load the bundles in bundle folder
 call pathogen#runtime_append_all_bundles()
+
+" http://vimdoc.sourceforge.net/htmldoc/filetype.html
+filetype on " enables filetype detection
+filetype plugin on " enables filetype specific plugins (ftplugins)
+filetype plugin indent on " enable loading the indent file for specific file types
