@@ -7,12 +7,6 @@
 [submodule "vim/bundle/command-t"]
 	path = vim/bundle/command-t
 	url = git://git.wincent.com/command-t.git
-[submodule "vim/bundle/pyflakes"]
-	path = vim/bundle/pyflakes
-	url = http://github.com/kevinw/pyflakes.git
-[submodule "vim/bundle/pyflakes-vim/ftplugin/python"]
-	path = vim/bundle/pyflakes-vim
-	url = http://github.com/kevinw/pyflakes-vim.git
 [submodule "vim/bundle/vim-markdown"]
 	path = vim/bundle/vim-markdown
 	url = http://github.com/tpope/vim-markdown.git
